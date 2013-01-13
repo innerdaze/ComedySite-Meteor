@@ -1,0 +1,22 @@
+<template name="post_view">
+    {{#with getPost}}
+    <article>
+        <h1>{{Headline}}</h1>
+        <p>
+            {{TimeAgo}} - {{#with getAuthor AuthorId}}<a class="navlink" href="/author/{{SeoUrl}}" rel="author">{{{FullName}}}</a>{{/with}}
+        <!--<menu class="rating">-->
+            <!--<span class="star"></span>-->
+            <!--<span class="star"></span>-->
+            <!--<span class="star"></span>-->
+            <!--<span class="star"></span>-->
+            <!--<span class="star"></span>-->
+        <!--</menu>-->
+        </p>
+        <div class="img-container" style="height: 150px; overflow: hidden">
+            <img height="148" src="{{HeroImageSrc}}" style="top: -100%; position:relative" />
+        </div>
+        <h4 class="subheader">{{LeadCopy}}</h4>
+        <p>{{PrimaryContent}}</p>
+    </article>
+    {{/with}}
+</template>

@@ -1,0 +1,20 @@
+<template name="page2">
+    <div class="off-canvas">
+        {{> header}}
+        <p class="fixed-top show-for-small">
+            <a class='sidebar-button button' id="sidebarButton" href="#sidebar" >Menu</a>
+        </p>
+        <div class="row full-width">
+            <section role="main">
+                <div class="row">
+                    <section class="content-area nine columns">
+                        {{> post_region}}
+                    </section>
+                    {{> social_side}}
+                </div>
+            </section>
+            {{> left_side}}
+        </div>
+    </div>
+    {{> dom_scripts}}
+</template>
