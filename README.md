@@ -1,2 +1,0 @@
-Meteor-Comedy-Site
-==================
