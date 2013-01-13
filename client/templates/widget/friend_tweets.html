@@ -1,0 +1,17 @@
+<template name="friend_tweets">
+    <h3>Friend Feed</h3>
+
+    <ul class="no-bullet">
+        {{#each FriendTweetsArray}}
+        <li class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="">
+            </a>
+            <div class="media-body">
+                <q cite="">{{Message}}</q>
+                - <a href="#" rel="author">{{Author}}</a>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</template>
