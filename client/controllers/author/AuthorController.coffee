@@ -5,6 +5,10 @@ Meteor.define 'Meteor.AuthorController',
 
   extends: 'Meteor.Controller'
 
+  constructor: ->
+    debugger
+    Meteor.subscribe 'authors'
+
   ###
     Retrieve a single Author using the SeoUrl as an index
     @return Author
