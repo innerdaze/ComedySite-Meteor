@@ -2,4 +2,8 @@ Meteor.define 'Meteor.Page.Index',
 
   extends : 'Meteor.PageController'
 
-  getPostsSelector: -> {}
+  init: ->
+    Session.set 'current-authors-selector', {}
+    Session.set 'current-posts-selector', {}
+
+  getAuthorsSelector: -> {}

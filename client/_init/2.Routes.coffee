@@ -11,12 +11,13 @@ AppRouter = Backbone.Router.extend
     Session.set 'pageIndex', url_path
 
   getPost: (seo_url) ->
-    Session.set 'postId', seo_url
+    Session.set 'postUrl', seo_url
     Session.set 'pageIndex', 'post'
 
   getAuthor: (seo_url) ->
-    Session.set 'authorId', seo_url
+    Session.set 'authorUrl', seo_url
     Session.set 'pageIndex', 'author'
+
 
 Router = new AppRouter
 
@@ -29,16 +30,13 @@ Backbone.history.start
 if Session.get('pageUrl') isnt window.location.pathname
   Session.set 'pageUrl', window.location.pathname
 
+
 ###
   Navigation - Listen for changes to Session.page_url and echo to Router
 ###
 Meteor.autorun (handle) ->
-  page_url = Session.get 'pageUrl'
+  Router.navigate Session.get('pageUrl'), true
 
-#  reg = /.+?\:\/\/.+?(\/.+?)(?:#|\?|$)/
-#  regResult = reg.exec(page_url)
-
-  Router.navigate page_url, true
 
 ###
   Pathchange Support

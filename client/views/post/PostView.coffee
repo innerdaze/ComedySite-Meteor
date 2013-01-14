@@ -10,7 +10,7 @@ _.extend Template.post_view,
     )[property]
 
   getPost: ->
-    Meteor.PostController.getPost()
+    Meteor.PostController.getPost Session.get 'postId'
 
 #Template.article_view.events =
 #  'keyup #document-text': (e) ->

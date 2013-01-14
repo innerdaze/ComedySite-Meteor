@@ -3,15 +3,13 @@ _.extend Template.post_list,
   entityController: Meteor.PostController,
 
   getPosts: ->
+    debugger
     if(Template.post_list.posts)
       posts = Template.post_list.posts
 
     else if Posts
-      postSelector = Template.post_list.getPostsSelector()
-
-      posts = Posts.find postSelector,
-        sort:
-          name: 1
+#      postSelector = Template.post_list.getPostsSelector()
+      posts = Meteor.PostController.getPosts()
 
     posts
 

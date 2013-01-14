@@ -1,8 +1,29 @@
 Meteor.startup ->
+  Authors.remove {}
+  if Authors.find().count() is 0
+    Authors.insert
+#      AuthorId  : 1
+      FirstName : "Samuel"
+      LastName  : "L. Jackson"
+      FullName  : "Samuel L. Jackson"
+      SeoUrl    : 'samuel-l-jackson'
+    Authors.insert
+#      AuthorId  : 2
+      FirstName : "Latifah"
+      LastName  : "Johnson"
+      FullName  : "Latifah Johnson"
+      SeoUrl    : 'latifah-johnson'
+
+
   Posts.remove {}
   if Posts.find().count() is 0
+
+    authorId = Authors.findOne(
+      FirstName: 'Samuel'
+    )._id
+
     Posts.insert
-      AuthorId      : 1
+      AuthorId      : authorId
       TimeAgo       : "3 Days"
       Headline	    : "I'm serious as a heart attack"
       LeadCopy	    : "Toast is hard to cook... so I use a maid."
@@ -11,7 +32,7 @@ Meteor.startup ->
       Type          : "A"
       SeoUrl        : 'path-of-a-righteous-man'
     Posts.insert
-      AuthorId      : 2
+      AuthorId      : authorId
       TimeAgo       : "1 Day"
       Headline	    : "I can do that"
       LeadCopy	    : "Your bones don't break, mine do."
@@ -19,8 +40,14 @@ Meteor.startup ->
       HeroImageSrc  : '/dummy_images/italian_man_an_untrained_eye.jpg'
       Type          : "B"
       SeoUrl        : 'your-dont-get-sick-but-i-do'
+
+    debugger
+    authorId = Authors.findOne(
+      FirstName: 'Latifah'
+    )._id
+
     Posts.insert
-      AuthorId      : 1
+      AuthorId      : authorId
       TimeAgo       : "2 Hours"
       Headline	    : "Is she dead, yes or no?"
       LeadCopy	    : "Your bones don't break, mine do."
@@ -29,7 +56,7 @@ Meteor.startup ->
       Type          : "C"
       SeoUrl        : 'glass-motherfuckin-house'
     Posts.insert
-      AuthorId      : 2
+      AuthorId      : authorId
       TimeAgo       : "8 Hours"
       Headline	    : "Hold on to your butts"
       LeadCopy	    : "My money's in that office, right?"
@@ -37,18 +64,3 @@ Meteor.startup ->
       HeroImageSrc: '/dummy_images/lee_rasmussen_korea.net.jpg'
       Type          : "D"
       SeoUrl        : 'ima-gonna-shoot-you-in-the-head-then'
-
-  Authors.remove {}
-  if Authors.find().count() is 0
-    Authors.insert
-      AuthorId  : 1
-      FirstName : "Samuel"
-      LastName  : "L. Jackson"
-      FullName  : "Samuel L. Jackson"
-      SeoUrl    : 'samuel-l-jackson'
-    Authors.insert
-      AuthorId  : 2
-      FirstName : "Latifah"
-      LastName  : "Johnson"
-      FullName  : "Latifah Johnson"
-      SeoUrl    : 'latifah-johnson'
