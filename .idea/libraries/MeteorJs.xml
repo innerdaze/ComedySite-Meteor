@@ -1,0 +1,62 @@
+<component name="libraryTable">
+  <library name="MeteorJs" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="Node.js Core Modules" />
+    </properties>
+    <CLASSES />
+    <DOCUMENTATION>
+      <root url="http://docs.meteor.com/" />
+    </DOCUMENTATION>
+    <SOURCES>
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/autopublish/autopublish.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-facebook/facebook_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-facebook/facebook_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/mongo-livedata/local_collection_driver.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/mongo-livedata/collection.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/mongo-livedata/remote_collection_driver.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/mongo-livedata/mongo_driver.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/startup/startup_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/http/httpcall_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/http/httpcall_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/minimongo/diff.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/minimongo/selector.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/minimongo/sort.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/dynamics_nodejs.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/url_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/helpers.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/timers.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/server_environment.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/fiber_helpers.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/meteor/url_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/deps/deps-utils.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/deps/deps.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-base/accounts_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-base/accounts_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/session/session.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/backbone/backbone.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/livedata/server_convenience.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/livedata/crossbar.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-oauth2-helper/oauth2_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-urls/url_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-oauth2-helper/oauth2_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/stream/stream_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/uuid/uuid.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/spiderable/spiderable.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/past/past.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/logging/logging.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/json/json2.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/insecure/insecure.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/minimongo/minimongo.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/minimongo/uuid.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/minimongo/modify.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/livedata/livedata_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/livedata/writefence.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/livedata/livedata_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-oauth-helper/oauth_common.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-oauth-helper/oauth_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/underscore/underscore.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-google/google_server.js" />
+      <root url="file://$USER_HOME$/htdocs/comedysite-meteor/.meteor/local/build/app/packages/accounts-google/google_common.js" />
+    </SOURCES>
+  </library>
+</component>
