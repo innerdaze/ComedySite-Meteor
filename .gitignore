@@ -9,7 +9,7 @@ lib-cov
 
 .idea/*
 
-no_sync
+*/no_sync/*
 
 client/lib
 
