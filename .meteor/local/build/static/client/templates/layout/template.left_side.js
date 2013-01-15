@@ -1,1 +1,0 @@
-Meteor._def_template("left_side",Handlebars.json_ast_to_func(["<section id=\"sidebar\" role=\"complementary\"  data-magellan-expedition='fixed'>\n        ",[">","main_menu"],"\n        ",[">","grid_view_toolbar"],"\n    </section>"]));
