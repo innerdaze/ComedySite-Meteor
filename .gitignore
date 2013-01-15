@@ -7,10 +7,10 @@ lib-cov
 *.pid
 *.gz
 
-.meteor/
-.idea/
+.meteor
+.idea
 
-*/no_sync/
+no_sync
 
 client/lib
 
