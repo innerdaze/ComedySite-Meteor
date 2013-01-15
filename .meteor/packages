@@ -16,3 +16,4 @@ accounts-facebook
 accounts-base
 accounts-oauth2-helper
 coffeescript
+autopublish

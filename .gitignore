@@ -10,7 +10,6 @@ lib-cov
 .idea
 
 client/lib
-public
 
 pids
 logs
